@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    var diemGiuaKi = prompt("Nhập điểm giữa kì: ", 0);
+    var diemCuoiKi = prompt("Nhập điểm cuối kì: ", 0);
+    var diemTongKet = diemCuoiKi*0.6+diemGiuaKi*0.4;
+    if(diemTongKet>=8) alert("Xuất sắc");
+    else if(diemTongKet>=7) alert("Giỏi");
+    else if(diemTongKet>=6) alert("Khá");
+    else if(diemTongKet>=4) alert("Trung Bình");
+    else alert("Kém");
+  </script>
+</body>
+</html>
